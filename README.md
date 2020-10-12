@@ -1,4 +1,4 @@
-# parspackfront
+# SimpleTaskFront
 
 ## Project setup
 ```
