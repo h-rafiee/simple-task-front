@@ -8,6 +8,12 @@
     </h3>
     <div class="row mt-3">
       <div class="col">
+        <router-link to="/folders">Folders</router-link>
+        <router-link to="/files" class="ml-3">Files</router-link>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
         <table-object :columns="processColumns" :data="processData" />
       </div>
     </div>

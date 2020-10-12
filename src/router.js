@@ -2,6 +2,9 @@ import Vue from "vue";
 import Router from "vue-router";
 
 import HomePage from "./components/home/HomePage";
+import FolderPage from "./components/folder/FolderPage";
+import FilePage from "./components/file/FilePage";
+
 import LoginPage from "./components/login/LoginPage";
 import RegisterPage from "./components/register/RegisterPage";
 
@@ -13,6 +16,8 @@ export const router = new Router({
   mode: "history",
   routes: [
     { path: "/", component: HomePage },
+    { path: "/folders", component: FolderPage },
+    { path: "/files", component: FilePage },
     { path: "/login", component: LoginPage },
     { path: "/register", component: RegisterPage },
 
